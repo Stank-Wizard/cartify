@@ -106,7 +106,7 @@ if(__name__ == '__main__'):
                         cart.text((300, 760), title_code, font=font, anchor='mm')
                     
                     # TODO REMOVE THIS LINE IN FINAL
-                    base_image.save(f'contents/{title_id}/original.jpg', 'JPEG', quality=100)
+                    # base_image.save(f'contents/{title_id}/original.jpg', 'JPEG', quality=100)
 
                     # Resize base image for aspect ratio
                     base_image = base_image.resize((256,256), Image.LANCZOS)
